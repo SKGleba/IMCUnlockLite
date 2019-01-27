@@ -131,7 +131,7 @@ void _start() __attribute__ ((weak, alias("module_start")));
     if (pwork() == 1) {
 	    return SCE_KERNEL_START_SUCCESS;
 	} else {
-	    return SCE_KERNEL_START_SUCCESS;
+	    return SCE_KERNEL_START_FAILED;
 	}
  }
 
