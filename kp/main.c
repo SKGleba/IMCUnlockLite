@@ -92,9 +92,7 @@ int work(void) {
 	    uptn.sz = 0; // Disable
 	} else if (uptn.code == 8 && uptn.type == 7 && uptn.sz == 0) { // Our mod - inactive
 	    uptn.sz = hmb.sz; // Enable
-	} else {
-	    return 0; // n/a
-	}
+	} 
 	
 	// Write both entries back
 	dfd = ksceIoOpen("ur0:temp/tmbr.img", SCE_O_RDWR, 0777);
