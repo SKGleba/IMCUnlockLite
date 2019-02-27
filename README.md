@@ -36,5 +36,5 @@ This mod allows you to _permanently_ add a internal ux0 storage (imc) to the PSV
    - A: This version is safer, and recommended for not-advanced users.
  
  # Useful notes:
-- If you want to disable the internal partition for some reason, just redo the process. Instead of removing, the internal ux0 partition is disabled (to prevent syscon from blocking the original memory cards after a user uninstalls it without having a sony mc inserted). You can remove it fully using IMCUnlock's 0mb option.
+- If you want to disable the internal partition for some reason, just redo the process. Instead of removing, the internal ux0 partition is disabled (to prevent syscon from blocking the original memory cards after a user uninstalls it without having a sony mc inserted). You can remove it fully using IMCUnlock's 0mb option (if you use this option remember to have a sony mc inserted and mounted as ux0).
 - For any serious issue/help DM me on twitter (twitter.com/skgleba)
