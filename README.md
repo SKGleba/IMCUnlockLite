@@ -1,3 +1,5 @@
+# THIS TOOL IS OUTDATED, USE https://github.com/SKGleba/IMCUnlock 's 100MB OPTION INSTEAD
+
 # IMCUnlockLite
 MBR Magic
 
